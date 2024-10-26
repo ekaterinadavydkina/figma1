@@ -1,0 +1,126 @@
+body {
+    background: grey;   
+}
+.container { 
+	overflow:hidden;   
+}
+.container { 
+	width:152px;
+	height:183px;
+	position:absolute;   
+    margin: 100px 600px;   
+}
+.card { 
+	box-shadow:2px 30px 60px rgba(32.00000189244747, 32.00000189244747, 32.00000189244747, 0.05000000074505806);
+	background-color:rgba(255, 255, 255, 1);
+	width:152px;
+	height:183px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:16px;
+	border-top-right-radius:16px;
+	border-bottom-left-radius:16px;
+	border-bottom-right-radius:16px;  
+}
+.heart { 
+	width:16px;
+	height:14.3158540725708px;
+	position:absolute;
+	left:120px;
+	top:16px;
+}
+.text { 
+	color:rgba(39.00000147521496, 33.00000183284283, 77.00000301003456, 1);
+	width:125px;
+	height:23px;
+	position: absolute;
+	left:16px;
+    right: 11px;
+	top:110px;
+	align-items: center;
+    white-space: nowrap;
+	font-size:16px;
+	letter-spacing:-1;
+    font-family: "Brandon Grotesque Medium Regular";   
+}
+.leftside { 
+	width:57px;
+	height:20px;
+	position:absolute;
+	left:17px;
+	top:143px; 
+}
+.amount { 
+	color:rgba(240.12499898672104, 134.4263443350792, 38.019802272319794, 1);
+	width:37px;
+	height:20px;
+	position:absolute;
+	left:20px;
+	top:3px;
+	font-family: "Brandon Grotesque", sans-serif;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:-1;   
+}
+.cube1 { 
+	width:16px;
+	height:12.800000190734863px;
+	position:absolute;
+	left:0px;
+	top:4px;
+}
+.number { 
+	
+	width:16px;
+	height:12.800000190734863px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.rightside { 
+	width:24px;
+	height:24px;
+	position:absolute;
+	left:112px;
+	top:141px;
+}
+.cube2 { 
+	background-color:rgba(255, 242.21947699785233, 230.5625081062317, 1);
+	width:24px;
+	height:24px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:100px;
+	border-top-right-radius:100px;
+	border-bottom-left-radius:100px;
+	border-bottom-right-radius:100px;
+}
+.add { 
+	
+	width:12px;
+	height:12px;
+	position:absolute;
+	left:6px;
+	top:6px;
+}
+.picture { 
+	width:80px;
+	height:80px;
+	position:absolute;
+	left:36px;
+	top:22px;
+	background-image:url(images/glowing_berry_fruit_salad_8_720x720_removebg_preview_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+@font-face {
+    font-family: "Brandon Grotesque Medium Regular";
+    src: url("https://db.onlinewebfonts.com/t/5116a4d958b55b9c7872c9af3b076af1.eot");
+    src: url("https://db.onlinewebfonts.com/t/5116a4d958b55b9c7872c9af3b076af1.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5116a4d958b55b9c7872c9af3b076af1.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5116a4d958b55b9c7872c9af3b076af1.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5116a4d958b55b9c7872c9af3b076af1.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5116a4d958b55b9c7872c9af3b076af1.svg#Brandon Grotesque Medium Regular")format("svg");
+}
